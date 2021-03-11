@@ -2,11 +2,16 @@
 <html>
     <head>
         <title>이성용의 홈페이지</title>
+        <link href = "./practice.css" rel = "stylesheet" type = "text/css">
+
+        <script type = "text/javascript" src = "python06.js"></script>
+        <script type = "text/javascript" src = "python07.js"></script>
+
     </head>
     <body>
-        <nav>
+        <nav style = "background-color: darkgreen; font-size: 150%; text-align: center">
             <a href = "./python02.html">Home</a>
-            <a href = "./blog_liszt.html">Blog</a>
+            <a href = "./python04.html">Blog</a>
             <a href = "./python03.html">About Me</a>
         </nav>
         <h1>첫 번째 크기 헤드라인</h1>
@@ -14,10 +19,23 @@
         <h3>세 번째 크기 헤드라인</h3>
         <h4>네 번재 크기 헤드라인</h4>
         <h5>다섯 번째 크기 헤드라인</h5>
+
+        <button onclick="whatTimeIsIt()">현재시간</button>
+        <hr/>
+        
+        <label for = "inputA">a</label>
+        <input id = "inputA" value = 1 onkeyup = "doSomething()")>
+        <label for = "inputB">b</label>1
+        <input id = "inputB" value = 2 onkeyup = "doSomething()")>
+
+        <p><span id = "valueA">1</span> + <span id = "valueB">2</span> 
+        = <span id = "valueC">3</span>입니다.</p>
+
         <p>문단은 p로 쓰세요. p는 아마도 Paragraph의 앞글자를 따온 것이겠죠?</p>
         <a href = "https://www.google.com">go to google</a>
         <hr/>
         <img src = "./images/TDD.PNG" width = "600px">
     </body>
-    <!-- python2는 홈화면, python3는 자기소개 페이지 -->
+    <!-- python2는 홈화면, python3는 자기소개 페이지,
+         python4는 블로그-->
 </html>
